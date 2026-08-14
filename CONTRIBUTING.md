@@ -12,6 +12,15 @@ Consortium members are invited to add software, datasets, publications and other
 
 Please write for a broad cybersecurity audience, not only for the software’s maintainers. Do not copy material that the project is not permitted to republish. Links should use HTTPS.
 
+## Add a publication
+
+1. Copy `_publications/_template.md` to `_publications/<short-paper-name>.md`.
+2. Complete the bibliographic front matter, including every author, the publication date, venue, DOI and arXiv identifier where available.
+3. Add an accessible overview and explain the publication's connection to AIPITCH.
+4. Confirm that the DOI and paper links resolve before opening a pull request.
+
+Author names should appear in publication order. Enter a DOI without the `https://doi.org/` prefix; the website uses it to generate a permanent DOI link automatically.
+
 ## Review checklist
 
 - The contribution was produced within or directly supports AIPITCH.
