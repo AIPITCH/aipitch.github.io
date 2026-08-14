@@ -5,6 +5,12 @@ url: https://aipitch.eu
 baseurl: ""
 markdown: kramdown
 permalink: pretty
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
 exclude:
   - README.md
   - Gemfile
