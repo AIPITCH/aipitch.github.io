@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="publication-detail">
+  <header class="page-hero publication-hero">
+    <div class="container narrow">
+      <a class="back-link" href="{{ '/publications/' | relative_url }}">← All publications</a>
+      <p class="eyebrow light">{{ page.kind | default: "AIPITCH publication" }}</p>
+      <h1>{{ page.title }}</h1>
+      <p>{{ page.summary }}</p>
+    </div>
+  </header>
+  <div class="container publication-body">
+    <aside class="publication-sidebar">
+      <p class="eyebrow">Publication links</p>
+      <a class="button" href="{{ page.paper_url }}" rel="noopener" target="_blank">Read the paper ↗</a>
+      <dl>
+        <dt>Authors</dt><dd>{{ page.authors | join: ", " }}</dd>
+        {% if page.date %}<dt>Published</dt><dd>{{ page.date | date: "%B %-d, %Y" }}</dd>{% endif %}
+        {% if page.venue %}<dt>Venue</dt><dd>{{ page.venue }}</dd>{% endif %}
+        {% if page.doi %}<dt>DOI</dt><dd><a href="https://doi.org/{{ page.doi }}" rel="noopener" target="_blank">{{ page.doi }} ↗</a></dd>{% endif %}
+        {% if page.arxiv %}<dt>arXiv</dt><dd><a href="https://arxiv.org/abs/{{ page.arxiv }}" rel="noopener" target="_blank">{{ page.arxiv }} ↗</a></dd>{% endif %}
+        {% if page.member %}<dt>Consortium member</dt><dd>{{ page.member }}</dd>{% endif %}
+      </dl>
+    </aside>
+    <div class="publication-content">{{ content }}</div>
+  </div>
+</article>

@@ -16,10 +16,18 @@ defaults:
       type: projects
     values:
       layout: project
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: publication
 collections:
   projects:
     output: true
     permalink: /projects/:name/
+  publications:
+    output: true
+    permalink: /publications/:name/
 exclude:
   - README.md
   - Gemfile
