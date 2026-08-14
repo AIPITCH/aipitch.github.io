@@ -11,6 +11,15 @@ defaults:
       type: posts
     values:
       layout: post
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
 exclude:
   - README.md
   - Gemfile
