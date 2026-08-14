@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="page-hero">
+    <div class="container narrow">
+      <a class="back-link" href="{{ '/news/' | relative_url }}">← All news</a>
+      <p class="eyebrow light">Project news</p>
+      <h1>{{ page.title }}</h1>
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+    </div>
+  </header>
+  <div class="container narrow post-content">
+    {{ content }}
+  </div>
+</article>
