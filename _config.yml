@@ -1,0 +1,11 @@
+title: AI-PITCH
+email: contact@aipitch.eu
+description: European collaboration advancing practical, trustworthy AI for phishing threat detection and response.
+url: https://aipitch.eu
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
