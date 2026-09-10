@@ -37,6 +37,9 @@
 .post-content thead{background:var(--navy);color:var(--white)}
 .post-content th,.post-content td{padding:13px 16px;border-bottom:1px solid var(--line);text-align:left;vertical-align:middle}
 .post-content th{font-family:Manrope,sans-serif;font-size:.78rem;font-weight:700;letter-spacing:.025em;white-space:nowrap}
+.post-content th:only-child{width:100%}
+.post-content th:first-child:nth-last-child(2){width:70%}
+.post-content th:nth-child(2):last-child{width:30%}
 .post-content th:not(:last-child),.post-content td:not(:last-child){border-right:1px solid var(--line)}
 .post-content tbody tr:nth-child(even){background:var(--pale)}
 .post-content tbody tr{transition:background-color .15s ease}
