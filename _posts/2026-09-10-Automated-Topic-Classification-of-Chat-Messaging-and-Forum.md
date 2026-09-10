@@ -102,7 +102,7 @@ Models were initially asked to invent tags freely from channel content. This ope
 
 ***Example of diversity of a tag "account"***
 
-![](https://hdoc.csirt-tooling.org/uploads/945f8ec8-2ee8-44c5-8b21-a615904ff3af.svg)
+![](/assets/images/blog/1.svg)
 ***example of diversity of tags cross-models and family for a given telegram channel***
 
 Output handling created a second problem. Natural-language responses were not consistently machine-processable: models added explanations, Markdown, malformed values, or unexpected formatting. Although JSON output would normally reduce ambiguity, not every model supported reliable JSON responses through Ollama. Some returned invalid JSON or empty responses when structured output was requested.
@@ -290,7 +290,7 @@ Cross-report contradiction rate. For each model, this averages the percentage of
 | qwen3.5:122b                            |    1228 |            14 | 12534.24% |  10.21% |   0.0% | 0.0% | 100.0% |
 | gemma4:31b                              |    1228 |             6 |  9170.75% |   7.47% |   0.0% | 0.0% | 100.0% |
 
-![](https://hdoc.csirt-tooling.org/uploads/fa018613-5ab9-4dd7-bb05-08aff4038fa9.svg)
+![](/assets/images/blog/2.svg)
 
 In this graph, triangles represent median values and circles represent average values.
 
@@ -301,7 +301,7 @@ In the following random example, Granite4 initially detected the following 4 tag
 * `money-laundering:cashin/out`
 * `ponzy-financial gaian`
 
-![](https://hdoc.csirt-tooling.org/uploads/1d725ce8-aa42-4c5f-93ef-6f3c493f9993.svg)
+![](/assets/images/blog/3.svg)
 
 However, when asked to validate these tags, the model rejected one of its own initial predictions:
 
@@ -334,7 +334,7 @@ This score measures how well each model finds the consensus tags across all repo
 | granite4.1:30b                          |    1228 |            78 | 32290.26% |  26.29% |  25.0% | 0.0% | 100.0% |
 | devstral-2:latest                       |    1228 |           190 |  26107.5% |  21.26% | 22.22% | 0.0% | 100.0% |
 
-![](https://hdoc.csirt-tooling.org/uploads/c2e19c89-4d20-47f9-9362-0360c272ee10.svg)
+![](/assets/images/blog/4.svg)
 
 ### Best model that do not overtag
 
@@ -356,7 +356,7 @@ This score measures whether each model finds the right tags without adding too m
 | granite4.1:30b                          |    1228 |            78 | 37285.18% |  30.36% | 30.77% | 0.0% | 100.0% |
 | devstral-2:latest                       |    1228 |           190 |  34585.3% |  28.16% | 30.77% | 0.0% | 85.72% |
 
-![](https://hdoc.csirt-tooling.org/uploads/d052bb6c-5b58-45dd-ad93-590d791f55d9.svg)
+![](/assets/images/blog/5.svg)
 
 
 ### Best model for tagging
@@ -379,7 +379,7 @@ This score measures how reliable each model's proposed tags are across all repor
 | mistral-small3.2:24b-instruct-2506-fp16 |    1228 |            28 |  58199.77% |  47.39% |  50.0% | 0.0% | 100.0% |
 | granite4.1:30b                          |    1228 |            78 |  52524.37% |  42.77% |  40.0% | 0.0% | 100.0% |
 
-![](https://hdoc.csirt-tooling.org/uploads/c965a685-7363-4c2c-8e44-7330ac8b8fb6.svg)
+![](/assets/images/blog/6.svg)
 
 
 ### Detection time
@@ -402,8 +402,8 @@ Initial tagging latency. This aggregates `elapsed_second_request` from `classifi
 | gemma4:31b                              |    1226 | 59551.09s |  48.57s | 46.86s |  15.7s | 123.06s |
 | qwen3.5:122b                            |    1225 | 80532.59s |  65.74s | 64.91s | 22.96s | 117.49s |
 
-![](https://hdoc.csirt-tooling.org/uploads/c4f7c902-a74f-416d-b488-17a1538c6fe0.svg)
 
+![](/assets/images/blog/7.svg)
 
 ### Validation time
 
@@ -425,7 +425,7 @@ Validation latency. This aggregates `elapsed_second_request` from `validation.md
 | devstral-2:latest                       |    1038 | 68552.81s |  66.04s |  61.9s | 25.37s | 334.14s |
 | mistral-medium-3.5:latest               |    1177 | 99965.29s |  84.93s | 81.46s | 17.28s | 489.91s |
 
-![](https://hdoc.csirt-tooling.org/uploads/143d49b4-3c07-4585-9703-00f199d2d36b.svg)
+![](/assets/images/blog/8.svg)
 
 ## Discussion
 
