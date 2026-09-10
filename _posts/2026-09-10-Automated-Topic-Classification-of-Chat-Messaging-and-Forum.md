@@ -87,7 +87,6 @@ Validation decisions were aggregated into a consensus for each tag. This consens
 
 Models were initially asked to invent tags freely from channel content. This open-label approach proved unsuitable. Different models used synonyms, different levels of abstraction, and different wording for equivalent content. The result was a fragmented label space that could not be aggregated or compared reliably across channels. This also limited the models' ability to converge during validation.
 
-``` 
 - account_rentals
 - account_sales
 - account_sellings
@@ -98,7 +97,6 @@ Models were initially asked to invent tags freely from channel content. This ope
 - accounts
 - accountsellings
 - accountsharing
-```
 
 ***Example of diversity of a tag "account"***
 
@@ -468,3 +466,7 @@ CIRCL operate one instance of (Topic Classifier)[https://hellsehen.circl.lu]. Th
 AI-Powered Innovative Toolkit for Cybersecurity Hubs (AIPITCH) will provide a comprehensive set of practical, AI-powered tools for operational teams responsible for cyberdefence.
 
 tThe project focuses especially on Security Operations Centres with national responsibility. Its integrated toolkit will also support teams protecting other constituencies—including enterprise SOCs—so they can strengthen key services, turn diverse signals into actionable intelligence and respond more effectively.
+
+## Conference
+
+We are pleased to share that the research presented in this post has been selected for presentation at the Underground Economy 2026 (UE26) Conference, taking place in Strasbourg, France. UE26 brings together an international community of cybersecurity, threat intelligence and law-enforcement practitioners working on cybercrime and operational security challenges.
