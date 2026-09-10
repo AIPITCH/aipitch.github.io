@@ -17,6 +17,8 @@ A second issue is language. How can a analysts classify forums written in Polish
 
 Even when classification is performed in a familiar language, slang remains difficult. In some communities, users deliberately employ specialized vocabulary that is not present in standard language.
 
+An example of such specialized vocabulary:
+
 ``` 
 Need MQR
 
@@ -50,8 +52,6 @@ In this simple example, a user request for a State Bank of India (SBI) corporate
 - Maker: creates/initiates payments.
 - Checker: reviews and approves payments before execution.
   Mentionning that he need, Merchant QR code (MQR) for transactions like UPI/Google Pay/PhonePe.
-
----
 
 Prior work has demonstrated that automated Telegram classification is feasible. Roy et al.'s [DarkGram](https://www.usenix.org/system/files/usenixsecurity25-roy.pdf) analyzed 339 cybercriminal activity channels and 53,605 posts. Its BERT-based text classifier reported an average accuracy of 96% across five predefined categories. This result supports the use of a constrained label space rather than freely generated labels.
 
@@ -467,4 +467,4 @@ CIRCL operate one instance of (Topic Classifier)[https://hellsehen.circl.lu]. Th
 
 AI-Powered Innovative Toolkit for Cybersecurity Hubs (AIPITCH) will provide a comprehensive set of practical, AI-powered tools for operational teams responsible for cyberdefence.
 
-The project focuses especially on Security Operations Centres with national responsibility. Its integrated toolkit will also support teams protecting other constituencies—including enterprise SOCs—so they can strengthen key services, turn diverse signals into actionable intelligence and respond more effectively.
+tThe project focuses especially on Security Operations Centres with national responsibility. Its integrated toolkit will also support teams protecting other constituencies—including enterprise SOCs—so they can strengthen key services, turn diverse signals into actionable intelligence and respond more effectively.
