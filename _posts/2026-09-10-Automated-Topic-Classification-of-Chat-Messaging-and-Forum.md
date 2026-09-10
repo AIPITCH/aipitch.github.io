@@ -457,9 +457,11 @@ However, LLM processing time remains the main operational limitation. Average in
 
 The resulting quality is promising, but the current processing time is incompatible with real-time monitoring or frequent large-scale reclassification. A production system will require staged filtering, caching, asynchronous processing, fewer validation calls, or a lightweight first-pass classifier before invoking an LLM.
 
-This initial allow us to publish an open source engine  API managing queuing and access.The code is available on github https://github.com/AIPITCH/topic-classifier
+This initial allow us to publish an open source engine API managing queuing and access.
 
-CIRCL operate one instance of (Topic Classifier)[https://hellsehen.circl.lu]. This services is offered on request. Access can be granted by contacting info@circl.lu.
+The code is available on GitHub at [https://github.com/AIPITCH/topic-classifier](https://github.com/AIPITCH/topic-classifier)
+
+CIRCL operate one instance of [Topic Classifier](https://hellsehen.circl.lu). This services is offered on request. Access can be granted by contacting info@circl.lu.
 
 ## AIPITCH
 
