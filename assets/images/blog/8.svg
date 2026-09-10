@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1575" height="485">
+<style>text{font-family:monospace;font-size:12px}</style>
+<rect width="100%" height="100%" fill="white"></rect>
+<text x="10" y="25" font-size="18">Validation processing time</text>
+<text x="10" y="65">gpt-oss:120b</text>
+<line x1="339" y1="59" x2="398" y2="59" stroke="#555" stroke-width="2"></line>
+<line x1="339" y1="53" x2="339" y2="65" stroke="#555" stroke-width="2"></line>
+<line x1="398" y1="53" x2="398" y2="65" stroke="#555" stroke-width="2"></line>
+<circle cx="355" cy="59" r="5" fill="#3182bd"></circle>
+<polygon points="355,52 349,65 361,65" fill="#de2d26"></polygon>
+<text x="1115" y="64">avg 13.77s med 13.48s min 1.49s max 44.97s n=1198</text>
+<text x="10" y="95">igorls/gemma4-e4b-classifier:q8_0</text>
+<line x1="344" y1="89" x2="447" y2="89" stroke="#555" stroke-width="2"></line>
+<line x1="344" y1="83" x2="344" y2="95" stroke="#555" stroke-width="2"></line>
+<line x1="447" y1="83" x2="447" y2="95" stroke="#555" stroke-width="2"></line>
+<circle cx="361" cy="89" r="5" fill="#3182bd"></circle>
+<polygon points="361,82 355,95 367,95" fill="#de2d26"></polygon>
+<text x="1115" y="94">avg 18.09s med 17.85s min 5.35s max 81.20s n=1225</text>
+<text x="10" y="125">gemma4:e4b</text>
+<line x1="345" y1="119" x2="403" y2="119" stroke="#555" stroke-width="2"></line>
+<line x1="345" y1="113" x2="345" y2="125" stroke="#555" stroke-width="2"></line>
+<line x1="403" y1="113" x2="403" y2="125" stroke="#555" stroke-width="2"></line>
+<circle cx="364" cy="119" r="5" fill="#3182bd"></circle>
+<polygon points="363,112 357,125 369,125" fill="#de2d26"></polygon>
+<text x="1115" y="124">avg 19.85s med 19.51s min 6.26s max 48.73s n=1226</text>
+<text x="10" y="155">mistral-small3.2:24b-instruct-2506-fp16</text>
+<line x1="346" y1="149" x2="498" y2="149" stroke="#555" stroke-width="2"></line>
+<line x1="346" y1="143" x2="346" y2="155" stroke="#555" stroke-width="2"></line>
+<line x1="498" y1="143" x2="498" y2="155" stroke="#555" stroke-width="2"></line>
+<circle cx="366" cy="149" r="5" fill="#3182bd"></circle>
+<polygon points="364,142 358,155 370,155" fill="#de2d26"></polygon>
+<text x="1115" y="154">avg 21.56s med 20.36s min 6.84s max 118.61s n=1209</text>
+<text x="10" y="185">granite4.1:30b</text>
+<line x1="342" y1="179" x2="544" y2="179" stroke="#555" stroke-width="2"></line>
+<line x1="342" y1="173" x2="342" y2="185" stroke="#555" stroke-width="2"></line>
+<line x1="544" y1="173" x2="544" y2="185" stroke="#555" stroke-width="2"></line>
+<circle cx="377" cy="179" r="5" fill="#3182bd"></circle>
+<polygon points="374,172 368,185 380,185" fill="#de2d26"></polygon>
+<text x="1115" y="184">avg 29.40s med 27.26s min 3.87s max 152.02s n=1150</text>
+<text x="10" y="215">deepseek-r1:32b</text>
+<line x1="352" y1="209" x2="536" y2="209" stroke="#555" stroke-width="2"></line>
+<line x1="352" y1="203" x2="352" y2="215" stroke="#555" stroke-width="2"></line>
+<line x1="536" y1="203" x2="536" y2="215" stroke="#555" stroke-width="2"></line>
+<circle cx="380" cy="209" r="5" fill="#3182bd"></circle>
+<polygon points="378,202 372,215 384,215" fill="#de2d26"></polygon>
+<text x="1115" y="214">avg 31.61s med 30.23s min 11.24s max 146.12s n=1036</text>
+<text x="10" y="245">gemma4:12b</text>
+<line x1="352" y1="239" x2="517" y2="239" stroke="#555" stroke-width="2"></line>
+<line x1="352" y1="233" x2="352" y2="245" stroke="#555" stroke-width="2"></line>
+<line x1="517" y1="233" x2="517" y2="245" stroke="#555" stroke-width="2"></line>
+<circle cx="385" cy="239" r="5" fill="#3182bd"></circle>
+<polygon points="382,232 376,245 388,245" fill="#de2d26"></polygon>
+<text x="1115" y="244">avg 35.82s med 33.27s min 11.05s max 132.60s n=1208</text>
+<text x="10" y="275">qwen3.6:35b</text>
+<line x1="360" y1="269" x2="433" y2="269" stroke="#555" stroke-width="2"></line>
+<line x1="360" y1="263" x2="360" y2="275" stroke="#555" stroke-width="2"></line>
+<line x1="433" y1="263" x2="433" y2="275" stroke="#555" stroke-width="2"></line>
+<circle cx="386" cy="269" r="5" fill="#3182bd"></circle>
+<polygon points="386,262 380,275 392,275" fill="#de2d26"></polygon>
+<text x="1115" y="274">avg 36.32s med 35.92s min 16.89s max 71.03s n=1142</text>
+<text x="10" y="305">nemotron-3-super:latest</text>
+<line x1="351" y1="299" x2="1097" y2="299" stroke="#555" stroke-width="2"></line>
+<line x1="351" y1="293" x2="351" y2="305" stroke="#555" stroke-width="2"></line>
+<line x1="1097" y1="293" x2="1097" y2="305" stroke="#555" stroke-width="2"></line>
+<circle cx="407" cy="299" r="5" fill="#3182bd"></circle>
+<polygon points="400,292 394,305 406,305" fill="#de2d26"></polygon>
+<text x="1115" y="304">avg 51.69s med 46.33s min 10.89s max 556.88s n=1087</text>
+<text x="10" y="335">qwen3.5:122b</text>
+<line x1="356" y1="329" x2="813" y2="329" stroke="#555" stroke-width="2"></line>
+<line x1="356" y1="323" x2="356" y2="335" stroke="#555" stroke-width="2"></line>
+<line x1="813" y1="323" x2="813" y2="335" stroke="#555" stroke-width="2"></line>
+<circle cx="414" cy="329" r="5" fill="#3182bd"></circle>
+<polygon points="410,322 404,335 416,335" fill="#de2d26"></polygon>
+<text x="1115" y="334">avg 57.10s med 53.86s min 14.52s max 349.36s n=1214</text>
+<text x="10" y="365">gemma4:31b</text>
+<line x1="360" y1="359" x2="541" y2="359" stroke="#555" stroke-width="2"></line>
+<line x1="360" y1="353" x2="360" y2="365" stroke="#555" stroke-width="2"></line>
+<line x1="541" y1="353" x2="541" y2="365" stroke="#555" stroke-width="2"></line>
+<circle cx="413" cy="359" r="5" fill="#3182bd"></circle>
+<polygon points="411,352 405,365 417,365" fill="#de2d26"></polygon>
+<text x="1115" y="364">avg 56.32s med 54.56s min 17.56s max 149.87s n=1222</text>
+<text x="10" y="395">devstral-2:latest</text>
+<line x1="371" y1="389" x2="793" y2="389" stroke="#555" stroke-width="2"></line>
+<line x1="371" y1="383" x2="371" y2="395" stroke="#555" stroke-width="2"></line>
+<line x1="793" y1="383" x2="793" y2="395" stroke="#555" stroke-width="2"></line>
+<circle cx="427" cy="389" r="5" fill="#3182bd"></circle>
+<polygon points="421,382 415,395 427,395" fill="#de2d26"></polygon>
+<text x="1115" y="394">avg 66.04s med 61.90s min 25.37s max 334.14s n=1038</text>
+<text x="10" y="425">mistral-medium-3.5:latest</text>
+<line x1="360" y1="419" x2="1005" y2="419" stroke="#555" stroke-width="2"></line>
+<line x1="360" y1="413" x2="360" y2="425" stroke="#555" stroke-width="2"></line>
+<line x1="1005" y1="413" x2="1005" y2="425" stroke="#555" stroke-width="2"></line>
+<circle cx="452" cy="419" r="5" fill="#3182bd"></circle>
+<polygon points="448,412 442,425 454,425" fill="#de2d26"></polygon>
+<text x="1115" y="424">avg 84.93s med 81.46s min 17.28s max 489.91s n=1177</text>
+</svg>
